@@ -1,0 +1,1 @@
+insert into Country (nameCountry, area) values ('Russia', '500000');
