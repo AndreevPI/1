@@ -1,11 +1,12 @@
 package com.company;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException, IOException {
         Scanner in = new Scanner(System.in);
         printHelp();
         String x = " ";
@@ -46,6 +47,12 @@ public class Main {
                 case "delete city":
                     db.deleteCity();
                     break;
+                case "seriz":
+                    db.Serializable();
+                    break;
+                case "deriz":
+                    db.Derializable();
+                    break;
                 case "open":
                     db.open();
                     break;
@@ -79,6 +86,8 @@ public class Main {
                 "commit- выполнить подтверждение БД \n" +
                 "rollback- откат до последнего подтверждения \n" +
                 "show - вывод всей таблицы \n" +
+                "seriz- сериализация бд \n" +
+                "deriz - дессириализация бд \n" +
                 "help - вывод всех команд \n" +
                 "exit - выход из программы \n");
     }

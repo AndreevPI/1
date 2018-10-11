@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="838f0e84-6f3b-4425-841e-b44c8eb89311" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DBHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="838f0e84-6f3b-4425-841e-b44c8eb89311" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="417" column="123" lean-forward="true" selection-start-line="417" selection-start-column="123" selection-end-line="417" selection-end-column="123" />
+              <caret line="417" column="123" selection-start-line="417" selection-start-column="123" selection-end-line="417" selection-end-column="123" />
               <folding>
                 <element signature="method#open#0;class#DBHandler#0" />
                 <element signature="method#insertCountry#0;class#DBHandler#0" />
@@ -239,9 +237,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -365,12 +362,12 @@
       <workItem from="1539161879731" duration="3277000" />
       <workItem from="1539173598650" duration="3053000" />
       <workItem from="1539186395053" duration="660000" />
-      <workItem from="1539281937062" duration="686000" />
+      <workItem from="1539281937062" duration="1083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71491000" />
+    <option name="totallyTimeSpent" value="71888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,7 +380,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13893376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -567,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="417" column="123" lean-forward="true" selection-start-line="417" selection-start-column="123" selection-end-line="417" selection-end-column="123" />
+          <caret line="417" column="123" selection-start-line="417" selection-start-column="123" selection-end-line="417" selection-end-column="123" />
           <folding>
             <element signature="method#open#0;class#DBHandler#0" />
             <element signature="method#insertCountry#0;class#DBHandler#0" />

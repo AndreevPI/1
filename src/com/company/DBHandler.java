@@ -388,6 +388,14 @@ public class DBHandler {
         }
     }
 
+    public String getNameCountry( int idCountryInt) throws SQLException, NullPointerException {
+        String query = "SELECT "+ NAME_COUNTRY +" FROM "+ COUNTRY_TABLE +" WHERE "+ ID_COUNTRY +" = '"+ idCountryInt +"';";
+        stmt = dbConection.createStatement();
+        ResultSet rs = stmt.executeQuery(query);
+        String idCountryKey = rs.getString("nameCountry");
+        return idCountryKey;//получить имя по айди и записать в сериализацию
+    }
+
     public void Serializable() throws SQLException, NullPointerException, IOException {
         //страны
         ArrayList<Country> listCountrys = new ArrayList<Country>();
