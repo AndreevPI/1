@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838f0e84-6f3b-4425-841e-b44c8eb89311" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9510b2c5-9a44-49ad-832e-4ded38b4fc08.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6d8661b-7e7b-4f1e-85ab-0030c493780a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d097810a-c51b-45d5-8b1a-b8c2abcf5a27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d097810a-c51b-45d5-8b1a-b8c2abcf5a27.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kurs.db" beforeDir="false" afterPath="$PROJECT_DIR$/kurs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kursovaya/com/company/DBHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursovaya/com/company/DBHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kursovaya/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursovaya/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DBHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,13 +85,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10177" />
+          <entry key="java" value="10185" />
           <entry key="sql" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10177" />
+          <entry key="JAVA" value="10185" />
           <entry key="SQL" value="39" />
         </counts>
       </usages-collector>
@@ -157,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="417" column="123" lean-forward="true" selection-start-line="417" selection-start-column="123" selection-end-line="417" selection-end-column="123" />
               <folding>
                 <element signature="method#open#0;class#DBHandler#0" />
                 <element signature="method#insertCountry#0;class#DBHandler#0" />
@@ -174,6 +166,10 @@
                 <element signature="method#checkNameCountry#0;class#DBHandler#0" />
                 <element signature="method#checkNameCity#0;class#DBHandler#0" />
                 <element signature="method#close#0;class#DBHandler#0" />
+                <element signature="e#15790#15799#0" expanded="true" />
+                <element signature="e#16532#16538#0" expanded="true" />
+                <element signature="e#17358#17367#0" expanded="true" />
+                <element signature="e#18105#18111#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -369,12 +365,12 @@
       <workItem from="1539161879731" duration="3277000" />
       <workItem from="1539173598650" duration="3053000" />
       <workItem from="1539186395053" duration="660000" />
-      <workItem from="1539281937062" duration="222000" />
+      <workItem from="1539281937062" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71027000" />
+    <option name="totallyTimeSpent" value="71491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
+        <state relative-caret-position="248">
+          <caret line="417" column="123" lean-forward="true" selection-start-line="417" selection-start-column="123" selection-end-line="417" selection-end-column="123" />
           <folding>
             <element signature="method#open#0;class#DBHandler#0" />
             <element signature="method#insertCountry#0;class#DBHandler#0" />
@@ -587,6 +583,10 @@
             <element signature="method#checkNameCountry#0;class#DBHandler#0" />
             <element signature="method#checkNameCity#0;class#DBHandler#0" />
             <element signature="method#close#0;class#DBHandler#0" />
+            <element signature="e#15790#15799#0" expanded="true" />
+            <element signature="e#16532#16538#0" expanded="true" />
+            <element signature="e#17358#17367#0" expanded="true" />
+            <element signature="e#18105#18111#0" expanded="true" />
           </folding>
         </state>
       </provider>

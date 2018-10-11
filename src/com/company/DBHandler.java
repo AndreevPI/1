@@ -1,5 +1,7 @@
 package com.company;
 import org.sqlite.JDBC;
+
+import java.io.*;
 import java.sql.*;
 import java.util.*;
 
@@ -11,6 +13,8 @@ public class DBHandler {
     Statement stmt = null;
     ArrayList<String> cityList = new ArrayList<>();
     ArrayList<String> countryList = new ArrayList<>();
+    String filenameCitys = "citys.dat";
+    String filenameCountrys = "countrys.dat";
 
 //Подключение к БД
     public boolean open() {
@@ -382,5 +386,84 @@ public class DBHandler {
         catch (NullPointerException e) {
             System.out.println("Она и так закрыта)");
         }
+    }
+
+    public void Serializable() throws SQLException, NullPointerException, IOException {
+        //страны
+        ArrayList<Country> listCountrys = new ArrayList<Country>();
+        //String filename = "country.dat";
+        String query = "SELECT * FROM "+ COUNTRY_TABLE +";";
+        stmt = dbConection.createStatement();
+        ResultSet rs = stmt.executeQuery(query);
+        while(rs.next())
+        {
+            listCountrys.add(new Country(rs.getInt("id"),rs.getString("nameCountry"), rs.getFloat("area")));
+        }
+        try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filenameCountrys)))
+        {
+            oos.writeObject(listCountrys);
+            System.out.println("Файл был успешн записан");
+        }
+        catch(Exception ex){
+
+            System.out.println(ex.getMessage());
+        }
+        //город
+        ArrayList<City> listCity = new ArrayList<City>();
+        query = "SELECT * FROM "+ CITY_TABLE +";";
+        stmt = dbConection.createStatement();
+        rs = stmt.executeQuery(query);
+        while(rs.next())
+        {
+            listCity.add(new City(rs.getInt("id"), rs.getString("nameCity"), rs.getInt("population"), rs.getInt("salary"), getNameCountry(rs.getInt("idCountry"))));
+        }
+        try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filenameCitys)))
+        {
+            oos.writeObject(listCity);
+            System.out.println("Файл был успешн записан");
+        }
+        catch(Exception ex){
+
+            System.out.println(ex.getMessage());
+        }
+    }
+    public void Derializable() throws SQLException, NullPointerException, IOException {
+        //country
+        ArrayList<Country> newCountrys= new ArrayList<Country>();
+        try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filenameCountrys)))
+        {
+
+            newCountrys=((ArrayList<Country>)ois.readObject());
+        }
+        catch(Exception ex){
+
+            System.out.println(ex.getMessage());
+        }
+        for(Country p : newCountrys) {
+            // System.out.printf("Name: %s Area: %f \n", p.getName(), p.getArea());
+            String query = "INSERT INTO " + COUNTRY_TABLE + " ("+ NAME_COUNTRY +", "+ AREA +") " +
+                    "VALUES ('" + p.getName() + "', '" + p.getArea() + "');";
+            stmt = dbConection.createStatement();
+            stmt.executeUpdate(query);
+        }
+        //city
+        ArrayList<City> listCitys= new ArrayList<City>();
+        try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filenameCitys)))
+        {
+
+            listCitys=((ArrayList<City>)ois.readObject());
+        }
+        catch(Exception ex){
+
+            System.out.println(ex.getMessage());
+        }
+        for(City t : listCitys) {
+            //System.out.printf("Name: %s Area: %f \n", p.getName(), p.getArea());
+            String query = "INSERT INTO "+ CITY_TABLE +" ("+ NAME_CITY +", "+ POPULATION +", "+ SALARY +", "+ FOREIGN_KEY +") " +
+                    "VALUES ('"+ t.getName() +"', '"+ t.getPopulation() +"', '"+ t.getSalary() +"', '"+ getIdCountry(t.getCountry()) +"');";
+            stmt = dbConection.createStatement();
+            stmt.executeUpdate(query);
+        }
+
     }
 }
