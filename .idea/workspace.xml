@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838f0e84-6f3b-4425-841e-b44c8eb89311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_23_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kurs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DBHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9510b2c5-9a44-49ad-832e-4ded38b4fc08.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6d8661b-7e7b-4f1e-85ab-0030c493780a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d097810a-c51b-45d5-8b1a-b8c2abcf5a27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d097810a-c51b-45d5-8b1a-b8c2abcf5a27.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kursovaya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kursovaya.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kurs.db" beforeDir="false" afterPath="$PROJECT_DIR$/kurs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kursovaya/com/company/DBHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursovaya/com/company/DBHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kursovaya/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursovaya/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DBHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,6 +53,25 @@
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
         <item name="City: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kurs.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kurs.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="sqlite_sequence: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kurs.db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
@@ -62,46 +79,50 @@
     <session id="-491407236">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5003" />
+          <entry key="java" value="10177" />
           <entry key="sql" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5003" />
+          <entry key="JAVA" value="10177" />
           <entry key="SQL" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Country" value="1" />
-          <entry key="city" value="3" />
-          <entry key="class" value="2" />
+          <entry key="city" value="4" />
+          <entry key="class" value="3" />
           <entry key="country" value="1" />
-          <entry key="db" value="1" />
-          <entry key="java" value="5" />
+          <entry key="db" value="2" />
+          <entry key="java" value="8" />
           <entry key="sql" value="7" />
-          <entry key="sqlite_master" value="1" />
-          <entry key="sqlite_sequence" value="2" />
+          <entry key="sqlite_master" value="2" />
+          <entry key="sqlite_sequence" value="3" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="Database Element" value="7" />
-          <entry key="JAVA" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="3" />
+          <entry key="Database Element" value="10" />
+          <entry key="JAVA" value="8" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="3" />
           <entry key="Scratch" value="4" />
           <entry key="UML" value="1" />
@@ -115,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="495">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,35 +148,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Const.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1208">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
+              <folding>
+                <element signature="method#open#0;class#DBHandler#0" />
+                <element signature="method#insertCountry#0;class#DBHandler#0" />
+                <element signature="method#insertCity#0;class#DBHandler#0" />
+                <element signature="method#showAll#0;class#DBHandler#0" />
+                <element signature="method#showCity#0;class#DBHandler#0" />
+                <element signature="method#showCountry#0;class#DBHandler#0" />
+                <element signature="method#editCountry#0;class#DBHandler#0" />
+                <element signature="method#commitDB#0;class#DBHandler#0" />
+                <element signature="method#rollbackDB#0;class#DBHandler#0" />
+                <element signature="method#getIdCountry#0;class#DBHandler#0" />
+                <element signature="method#getIdCity#0;class#DBHandler#0" />
+                <element signature="method#checkNameCountry#0;class#DBHandler#0" />
+                <element signature="method#checkNameCity#0;class#DBHandler#0" />
+                <element signature="method#close#0;class#DBHandler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://d097810a-c51b-45d5-8b1a-b8c2abcf5a27/schema/main/table/city">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/City.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
               <folding>
                 <element signature="method#City#0;class#City#0" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,10 +243,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -215,7 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,18 +276,44 @@
               <item name="Kursovaya" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="Kursovaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Kursovaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Kursovaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="d097810a-c51b-45d5-8b1a-b8c2abcf5a27" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="Kursovaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Kursovaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538818516797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539103500122" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -298,12 +362,19 @@
       <workItem from="1538300463130" duration="230000" />
       <workItem from="1538311027137" duration="1053000" />
       <workItem from="1538313931779" duration="13107000" />
-      <workItem from="1538472382643" duration="21485000" />
+      <workItem from="1538472382643" duration="29849000" />
+      <workItem from="1539000863273" duration="6482000" />
+      <workItem from="1539009328267" duration="6233000" />
+      <workItem from="1539104151297" duration="6861000" />
+      <workItem from="1539161879731" duration="3277000" />
+      <workItem from="1539173598650" duration="3053000" />
+      <workItem from="1539186395053" duration="660000" />
+      <workItem from="1539281937062" duration="222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35875000" />
+    <option name="totallyTimeSpent" value="71027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,14 +389,13 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1276252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13893376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
@@ -337,7 +407,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,7 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kurs.db" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d71861d2-9701-4dcc-a5ea-6350da134a2c/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -413,10 +483,37 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a6d8661b-7e7b-4f1e-85ab-0030c493780a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://d097810a-c51b-45d5-8b1a-b8c2abcf5a27/schema/main/table/sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d097810a-c51b-45d5-8b1a-b8c2abcf5a27/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://d097810a-c51b-45d5-8b1a-b8c2abcf5a27/schema/main/table/country" />
+    <entry file="file://$PROJECT_DIR$/src/City.java" />
+    <entry file="file://$PROJECT_DIR$/kurs.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://d097810a-c51b-45d5-8b1a-b8c2abcf5a27/schema/main/table/sqlite_master" />
+    <entry file="jar://$USER_HOME$/Downloads/sqlite-jdbc-3.23.1.jar!/org/sqlite/core/CoreResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ScanReader.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="2518" selection-start-line="2518" selection-end-line="2518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="870" selection-start-line="870" selection-end-line="870" />
+          <folding>
+            <element signature="e#30017#30018#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,13 +524,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d097810a-c51b-45d5-8b1a-b8c2abcf5a27/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="das://d097810a-c51b-45d5-8b1a-b8c2abcf5a27/schema/main/table/country">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -444,10 +548,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/City.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+          <folding>
+            <element signature="method#City#0;class#City#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,43 +568,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DBHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1208">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="563">
+          <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
-          <folding>
-            <element signature="method#City#0;class#City#0" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
+            <element signature="method#open#0;class#DBHandler#0" />
+            <element signature="method#insertCountry#0;class#DBHandler#0" />
+            <element signature="method#insertCity#0;class#DBHandler#0" />
+            <element signature="method#showAll#0;class#DBHandler#0" />
+            <element signature="method#showCity#0;class#DBHandler#0" />
+            <element signature="method#showCountry#0;class#DBHandler#0" />
+            <element signature="method#editCountry#0;class#DBHandler#0" />
+            <element signature="method#commitDB#0;class#DBHandler#0" />
+            <element signature="method#rollbackDB#0;class#DBHandler#0" />
+            <element signature="method#getIdCountry#0;class#DBHandler#0" />
+            <element signature="method#getIdCity#0;class#DBHandler#0" />
+            <element signature="method#checkNameCountry#0;class#DBHandler#0" />
+            <element signature="method#checkNameCity#0;class#DBHandler#0" />
+            <element signature="method#close#0;class#DBHandler#0" />
           </folding>
         </state>
       </provider>

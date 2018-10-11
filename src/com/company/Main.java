@@ -17,14 +17,34 @@ public class Main {
                     db.insertCountry();
                     break;
                 case "edit country":
+                    db.editCountry();
                     break;
                 case "add city":
                     db.insertCity();
                     break;
                 case "edit city":
+                    db.editCity();
                     break;
                 case "show":
                     db.showAll();
+                    break;
+                case "show city":
+                    db.showCity();
+                    break;
+                case "show country":
+                    db.showCountry();
+                    break;
+                case "commit":
+                    db.commitDB();
+                    break;
+                case "rollback":
+                    db.rollbackDB();
+                    break;
+                case "delete country":
+                    db.deleteCountry();
+                    break;
+                case "delete city":
+                    db.deleteCity();
                     break;
                 case "open":
                     db.open();
@@ -50,8 +70,14 @@ public class Main {
                 "close - закрыть базу данных \n" +
                 "add country - добавить новую страну \n" +
                 "edit country - редактировать страну \n" +
+                "delete country - удалить страну \n" +
+                "show country - вывод всех стран \n" +
                 "add city - добавить новый город \n" +
                 "edit city - редактировать город \n" +
+                "delete city - удалить город \n" +
+                "show city - вывод всех городов \n" +
+                "commit- выполнить подтверждение БД \n" +
+                "rollback- откат до последнего подтверждения \n" +
                 "show - вывод всей таблицы \n" +
                 "help - вывод всех команд \n" +
                 "exit - выход из программы \n");

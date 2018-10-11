@@ -45,7 +45,6 @@
     <index id="15" parent="6" name="sqlite_autoindex_City_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>nameCity</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="16" parent="6">
@@ -60,6 +59,7 @@
       <ColNames>idCountry</ColNames>
       <RefTableName>Country</RefTableName>
       <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
     <column id="19" parent="7" name="id">
       <Position>1</Position>
@@ -74,11 +74,11 @@
     <column id="21" parent="7" name="area">
       <Position>3</Position>
       <DataType>float|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
     <index id="22" parent="7" name="sqlite_autoindex_Country_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>nameCountry</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="23" parent="7">
